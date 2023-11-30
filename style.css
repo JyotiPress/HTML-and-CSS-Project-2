@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: 'Eczar';
+    src: url(./Eczar-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 50px 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    gap: 30%;
+    
+}
+.navbar img{
+    width: 150px;
+    height: auto;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.list li{
+    list-style: none;
+}
+.list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+nav button{
+    background-color: #a1a1d1;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 9px;
+    font-size: 20px;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.left_side h1{
+    font-size: 60px;
+    font-family: 'Eczar', serif;
+}
+.left_side h1 span{
+    color: #a1a1d1;
+}
+.left_side p{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.left_side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left_side button{
+    margin-top: 30px;
+    background-color: #a1a1d1;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 9px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.right_side img{
+    width: 35em;
+    height: auto;
+    margin-right: 50px;
+    
+}
+
